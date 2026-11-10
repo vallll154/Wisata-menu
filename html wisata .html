@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisata menu</title>
+    <link rel="stylesheet" href="wisata script .css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Wisata</div>
+            <ul class="nav-links">
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#menu">Wisata</a></li>
+                <li><a href="#rekanan">Lokasi</a></li>
+                <li><a href="#kontak">Hubungi Kami</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#" class="btn-pesan">Pesan Disini</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="beranda">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1>Wisata<br>Jawa Timur</h1>
+                <p>Jelajahi pesona Nusantara yang memukau. Dari puncak gunung hingga kedalaman laut, kami menghadirkan keajaiban alam Indonesia langsung ke dalam pengalaman perjalanan Anda</p>
+                <p>Nikmati kelezatan resep warisan leluhur yang diolah dari bumbu rempah pilihan. Dari Sabang sampai Merauke, kami menghadirkan kehangatan tradisi Indonesia langsung ke meja makan Anda.</p>
+                <a href="#menu" class="btn-pesan-sekarang">pesan sekarang</a>
+            </div>
+            <div class="hero-image">
+                <img src="Logo Weeb.jpg" alt="Logo Weeb">
+            </div>
+        </div>
+    </section>
+
+    <!-- PILIHAN MENU -->
+    <section class="menu-section" id="menu">
+        <h2 class="section-title">Pilihan Menu</h2>
+        <div class="menu-grid">
+            <div class="menu-card">
+                <img src="gunung bromo.jpg" alt="Gunung Bromo">
+                <h3>Gunung Bromo</h3>
+                <p>Gunung berapi aktif ini terkenal di seluruh dunia karena lautan pasir yang luas (Pasir Berbisik), pemandangan matahari terbit (sunrise) yang menakjubkan, serta kawahnya yang ikonik.</p>
+            </div>
+            <div class="menu-card">
+                <img src="kawah ijen.jpg" alt="Kawah Ijen">
+                <h3>Kawah Ijen</h3>
+                <p>Terkenal dengan fenomena langka blue fire (api biru) yang hanya ada sedikit di dunia, serta danau kawah berwarna hijau toska yang asam dan memesona.</p>
+            </div>
+            <div class="menu-card">
+                <img src="tumpak sewu.jpg" alt="">
+                <h3>Air Terjun Tumpak Sewu</h3>
+                <p>Sering dijuluki sebagai Niagara-nya Indonesia karena bentuk tebingnya yang melingkar lebar dengan aliran air bertingkat yang sangat megah dan dramatis.</p>
+            </div>
+            <div class="menu-card">
+                <img src="taman baluran.jpg" alt="Taman Baluran">
+                <h3>Taman Nasional Baluran</h3>
+                <p>Dijuluki sebagai "Africa van Java" karena memiliki bentang alam padat sabana (Bekol) yang dihuni berbagai satwa liar bebas seperti rusa, banteng, dan burung merak.</p>
+            </div>
+            <div class="menu-card">
+                <img src="museum angkut.jpg" alt="Museum Angkut">
+                <h3>Museum Angkut</h3>
+                <p>Museum transportasi modern pertama dan terbesar di Asia Tenggara yang menampilkan berbagai koleksi alat transportasi klasik hingga kontemporer dari seluruh dunia dengan latar tiruan jalanan kota-kota luar negeri.</p>
+            </div>
+            <div class="menu-card">
+                <img src="taman safari prigen.jpg" alt="Taman Safari Prigen">
+                <h3>Taman Safari Prigen</h3>
+                <p>Salah satu taman safari terluas di Asia yang mengusung konsep drive-through sehingga pengunjung bisa melihat satwa liar dari dekat.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- BOOK A TABLE -->
+    <section class="book-section" id="book">
+        <h2 class="book-title">Book A Table</h2>
+        <div class="book-container">
+            <div class="book-form">
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="tel" placeholder="Phone Number" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <select required>
+                        <option value="" disabled selected>How many persons?</option>
+                        <option value="1">1 Person</option>
+                        <option value="2">2 Persons</option>
+                        <option value="3">3 Persons</option>
+                        <option value="4">4 Persons</option>
+                        <option value="5">5 Persons</option>
+                        <option value="6">6+ Persons</option>
+                    </select>
+                    <input type="date" required>
+                    <button type="submit" class="btn-book">BOOK NOW</button>
+                </form>
+            </div>
+            <div class="book-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.0!2d110.4!3d-7.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMzAnMDAuMCJTIDExMMKwMjQnMDAuMCJF!5e0!3m2!1sen!2sid!4v1234567890" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- KOMENTAR REKANAN / TESTIMONIALS -->
+    <section class="testimonial-section" id="rekanan">
+        <h2 class="testimonial-title">What Says Our Customers</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial-card">
+                <h4>Kenzy Putra W</h4>
+                <h5>Bromo bukan sekadar destinasi wisata, tapi pengalaman spiritual. Melihat lautan kabut dari kawah aktif sambil merasakan getaran bumi adalah momen yang tak terlupakan.</h5>
+                <span>Review Wisata : Gunung Bromo</span>
+                <h6>Ratting : 5.0</h6>
+            </div>
+            <div class="testimonial-card">
+                <h4>Ananda Hafis</h4>
+                <h5>Blue Fire di Ijen adalah fenomena langka yang harus dilihat minimal sekali seumur hidup. Perjalanan malam yang melelahkan terbayar lunas saat melihat api biru menyala di kegelapan kawah.</h5>
+                <span>Review Wisata : Kawah Ijen</span>
+                <h6>Ratting : 4.5</h6>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="kontak">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>Contact Us</h3>
+                <p>Location in skaneda</p>
+                <a href="https://wa.me/+625739727017">Wa : 085739727017<i></i></a>"
+                <p>JagatSaji@gmail.com</p>
+            </div>
+            <div class="footer-col">
+                <h3>JagatSaji</h3>
+                <p>Kuliner SMK Negeri 2 Mojokerto</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Opening Hours</h3>
+                <p>Everyday 10.00 Am - 18.00 Pm</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 All Rights Reserved By Ach.Vallency R.S xrpl-1_skaneda</p>
+        </div>
+    </footer>
+
+</body>
+</html>
